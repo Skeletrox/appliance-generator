@@ -1,0 +1,238 @@
+{
+	"rooms" : {
+		"hall" : {
+            "probability" : 0.6,
+            "appliances" : {
+                "TV" : {
+                    "rank" : 5,
+                    "present" : true,
+                    "value" : 60,
+                    "usage" : [
+                        8,
+                        9,
+                        13,
+                        14,
+                        20,
+                        21,
+                        22
+                    ],
+                    "duration" : 180
+                },
+                "Fan" : {
+                    "rank" : 1,
+                    "present" : true,
+                    "value" : 70,
+                    "usage" : [
+                        8,
+                        9,
+                        13,
+                        14
+                    ],
+                    "duration" : 120
+                },
+                "SetTopBox" : {
+                    "rank" : 4,
+                    "present" : true,
+                    "value" : 18,
+                    "usage" : [
+                        8,
+                        9,
+                        13,
+                        14,
+                        20
+                    ],
+                    "duration" : 120
+                },
+                "GamingConsole" : {
+                    "rank" : 6,
+                    "present" : true,
+                    "value" : 12,
+                    "usage" : [
+                        21,
+                        22
+                    ],
+                    "duration" : 120
+                },
+                "HomeTheater" : {
+                    "rank" : 7,
+                    "present" : true,
+                    "value" : 160,
+                    "usage" : [
+                        19,
+                        20,
+                        21,
+                        22
+                    ],
+                    "duration" : 240
+                },
+                "Tubelight" : {
+                    "rank" : 2,
+                    "present" : false,
+                    "value" : 80,
+                    "usage" : [
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                    ],
+                    "duration" : 300
+                },
+                "Tubelight2" : {
+                    "rank" : 3,
+                    "present" : true,
+                    "value" : 100,
+                    "usage" : [
+                        6,
+                        7,
+                        18,
+                        19
+                    ],
+                    "duration" : 240
+                }
+            }
+		},
+        "bedroom" : {
+            "probability" : 0.4,
+            "appliances" : {
+                "AC" : {
+                    "rank" : 4,
+                    "present" : false,
+                    "value" : 1200,
+                    "usage" : [
+                        0,
+                        7,
+                        22,
+                        23
+                    ],
+                    "duration" : 120
+                },
+                "Fan" : {
+                    "rank" : 1,
+                    "present" : true,
+                    "value" : 70,
+                    "usage" : [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "duration" : 420
+                },
+                "Tubelight" : {
+                    "rank" : 3,
+                    "present" : true,
+                    "value" : 80,
+                    "usage" : [
+                        5,
+                        22,
+                        23
+                    ],
+                    "duration" : 120
+                },
+                "NightLight" : {
+                    "rank" : 2,
+                    "present" : true,
+                    "value" : 7,
+                    "usage" : [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        22,
+                        23
+                    ],
+                    "duration" : 480
+                }
+            }
+        },
+        "bedroom2" : {
+            "probability" : 0.7,
+            "appliances" : {
+                "Cooler" : {
+                    "rank" : 3,
+                    "present" : true,
+                    "value" : 300,
+                    "usage" : [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        21,
+                        22,
+                        23
+                    ],
+                    "duration" : 480
+                },
+                "Fan" : {
+                    "rank" : 1,
+                    "present" : true,
+                    "value" : 70,
+                    "usage" : [
+                        14,
+                        15,
+                        16
+                    ],
+                    "duration" : 120
+                },
+                "Tubelight" : {
+                    "rank" : 2,
+                    "present" : true,
+                    "value" : 80,
+                    "usage" : [
+                        19,
+                        20,
+                        21
+                    ],
+                    "duration" : 150
+                }
+            }
+        },
+        "bathroom" : {
+            "probability" : 0.2,
+            "appliances" : {
+                "WaterHeater" : {
+                    "rank" : 1,
+                    "present" : false,
+                    "value" : 4500,
+                    "usage" : [
+                        7
+                    ],
+                    "duration" : 90
+                },
+                "WashingMachine" : {
+                    "rank" : 2,
+                    "present" : false,
+                    "value" : 500,
+                    "usage" : [
+                        8,
+                        9
+                    ],
+                    "duration" : 90
+                }
+            }
+        },
+        "kitchen" : {
+            "probability" : 0.15,
+            "appliances" : {
+                "Microwave" : {
+                    "present" : false,
+                    "value" : 1200,
+                    "usage" : [
+                        9,
+                        20
+                    ],
+                    "duration" : 60
+                }
+            }
+        }
+	}
+}

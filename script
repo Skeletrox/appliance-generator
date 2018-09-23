@@ -1,0 +1,16 @@
+8 hall Occupy
+8 bathroom Activate WashingMachine
+8.5 bathroom Leave
+9 kitchen Occupy
+9.5 kitchen Leave
+10 hall Leave
+13 hall Occupy Activate Tubelight
+14 hall Leave
+14 bedroom2 Occupy
+18 bedroom2 Leave
+18.5 hall Occupy
+20.5 kitchen Activate Microwave
+21 bedroom2 Occupy
+21 kitchen Leave
+22 hall Leave
+22.5 bedroom Occupy
